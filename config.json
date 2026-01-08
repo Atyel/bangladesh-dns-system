@@ -1,0 +1,25 @@
+{
+  "server": {
+    "name": "Bangladesh Ultra DNS",
+    "version": "4.0",
+    "author": "You",
+    "repository": "https://github.com/yourusername/bangladesh-dns-system"
+  },
+  "dns": {
+    "primary": "https://dns.bdix.workers.dev/dns-query",
+    "secondary": "https://1.1.1.1/dns-query",
+    "fallback": "https://8.8.8.8/dns-query"
+  },
+  "optimization": {
+    "bdix_enabled": true,
+    "cache_enabled": true,
+    "ad_blocking": true,
+    "smart_routing": true,
+    "compression": true
+  },
+  "limits": {
+    "requests_per_day": 100000,
+    "cache_size_mb": 100,
+    "max_concurrent": 1000
+  }
+}
